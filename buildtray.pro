@@ -4,20 +4,11 @@
 #
 #-------------------------------------------------
 
-QT       += core gui
-
+QT       += core gui sql
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
-
 TARGET = buildtray
 TEMPLATE = app
-
-
-SOURCES += main.cpp\
-        buildtray.cpp
-
-HEADERS  += buildtray.h
-
+SOURCES += main.cpp buildtray.cpp manager.cpp
+HEADERS  += buildtray.h manager.h
 FORMS    += buildtray.ui
-
-RESOURCES += \
-    buildtray.qrc
+RESOURCES += buildtray.qrc
