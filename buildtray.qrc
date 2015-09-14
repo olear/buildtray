@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/res">
+        <file>icons/buildtray-22px.png</file>
+        <file>icons/warning-22px.png</file>
+        <file>icons/buildtray-48px.png</file>
+    </qresource>
+</RCC>
